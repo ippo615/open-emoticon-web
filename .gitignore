@@ -1,0 +1,5 @@
+# virtual machine stuff
+.vagrant
+
+# Node packages
+node_modules
