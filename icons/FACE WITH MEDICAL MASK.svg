@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg3003"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="FACE WITH MEDICAL MASK.svg">
+  <defs
+     id="defs3005" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.36114926"
+     inkscape:cx="704.64936"
+     inkscape:cy="162.64408"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="679"
+     inkscape:window-height="729"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3008">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,448)">
+    <g
+       style="font-size:144px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="text2983">
+      <path
+         d="m 71.9375,-198.89453 c -3.5e-5,-50.99589 17.978463,-94.47241 53.93555,-130.42969 35.9569,-36.09343 79.36506,-54.14029 130.22461,-54.14062 50.99582,3.3e-4 94.40398,18.04719 130.22461,54.14062 35.81992,35.95728 53.73006,79.4338 53.73046,130.42969 -4e-4,50.85948 -17.91054,94.19928 -53.73046,130.01953 -35.82063,35.8203 -79.22879,53.730438 -130.22461,53.730469 C 205.23811,-15.144562 161.82995,-33.0547 125.87305,-68.875 89.915963,-104.69525 71.937465,-148.03505 71.9375,-198.89453 m 74.64844,-14.35547 0,-27.68555 87.36328,0 0,27.68555 -87.36328,0 m 131.66015,0 0,-27.68555 87.36328,0 0,27.68555 -87.36328,0 m -122.84179,-47.16797 -15.79102,-22.55859 70.54688,-49.42383 15.79101,22.76367 -70.54687,49.21875 m 201.38672,0 -70.54688,-49.21875 15.79102,-22.76367 70.54687,49.42383 -15.79101,22.55859 m -182.51954,159.75586 163.65235,0 0,-57.42187 -163.65235,0 0,57.42187 m 174.72657,27.685548 -185.80078,0 c 26.79672,20.097663 57.76348,30.146481 92.90039,30.146484 35.27318,-3e-6 66.23995,-10.048821 92.90039,-30.146484 m 16.61132,-14.355469 c 27.75355,-27.480399 43.1344,-59.882709 46.14258,-97.207029 l -46.14258,32.40234 0,64.804689 m -219.02343,0 0,-64.804689 -46.34766,-32.40234 c 3.00775,37.32432 18.45695,69.72663 46.34766,97.207029 M 411.3418,-217.76172 c -3.69178,-35.27323 -18.52575,-65.96656 -44.50196,-92.08008 -30.35186,-30.6247 -67.26588,-45.93719 -110.74218,-45.9375 -43.2033,3.1e-4 -80.11733,15.3128 -110.74219,45.9375 -25.97665,26.11352 -40.87897,56.73849 -44.70703,91.875 l 45.9375,32.19727 219.02343,0 45.73243,-31.99219"
+         style="font-size:420px"
+         id="path4218" />
+    </g>
+  </g>
+</svg>

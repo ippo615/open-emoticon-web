@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="512"
+   height="512"
+   id="svg3003"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="CONFOUNDED FACE.svg">
+  <defs
+     id="defs3005" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0214844"
+     inkscape:cx="312.65357"
+     inkscape:cy="245.02671"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:document-units="px"
+     inkscape:grid-bbox="true"
+     inkscape:window-width="679"
+     inkscape:window-height="729"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3008">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,448)">
+    <g
+       style="font-size:144px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       id="text2983">
+      <path
+         d="m 183.29492,-222.27344 -19.48242,-19.48242 55.37109,-55.37109 19.48243,19.48242 -55.3711,55.37109 m -83.671873,23.37891 c -6.3e-5,43.20323 15.244063,80.0489 45.732423,110.537108 30.62486,30.351575 67.53889,45.527341 110.74219,45.527344 43.33958,-3e-6 80.18524,-15.175769 110.53711,-45.527344 30.48792,-30.488208 45.73204,-67.333878 45.73242,-110.537108 -3.8e-4,-43.33965 -15.2445,-80.32203 -45.73242,-110.94727 -30.35187,-30.6247 -67.19753,-45.93719 -110.53711,-45.9375 -43.2033,3.1e-4 -80.11733,15.3128 -110.74219,45.9375 -30.48836,30.62524 -45.732486,67.60762 -45.732423,110.94727 m -27.685547,0 c -3.5e-5,-50.99589 17.978463,-94.47241 53.93555,-130.42969 35.9569,-36.09343 79.36506,-54.14029 130.22461,-54.14062 50.99582,3.3e-4 94.40398,18.04719 130.22461,54.14062 35.81992,35.95728 53.73006,79.4338 53.73046,130.42969 -4e-4,50.85948 -17.91054,94.19928 -53.73046,130.01953 -35.82063,35.8203 -79.22879,53.730438 -130.22461,53.730469 C 205.23811,-15.144562 161.82995,-33.0547 125.87305,-68.875 89.915963,-104.69525 71.937465,-148.03505 71.9375,-198.89453 m 256.96289,-23.37891 -55.37109,-55.37109 19.48242,-19.48242 55.37109,55.37109 -19.48242,19.48242 m -12.09961,67.67578 c -7.10965,1.1e-4 -13.46706,7.17784 -19.07226,21.53321 -1.50417,3.96492 -3.89675,8.27156 -7.17774,12.91992 -9.57056,13.3985 -21.05492,20.166068 -34.45312,20.302733 -13.39865,5.4e-5 -24.88301,-6.767513 -34.45313,-20.302733 -3.8283,-5.46867 -6.56268,-10.4589 -8.20312,-14.9707 -4.64861,-12.98818 -10.59587,-19.48232 -17.8418,-19.48243 -7.6564,1.1e-4 -13.67202,6.49425 -18.04688,19.48243 l -24.81445,-11.68946 c 2.18738,-5.46864 4.99011,-10.52723 8.4082,-15.17578 9.57018,-13.39831 21.05455,-20.09752 34.45313,-20.09765 13.39826,1.3e-4 24.88263,6.69934 34.45312,20.09765 3.82793,5.46886 6.5623,10.52745 8.20313,15.17578 4.64823,12.98837 10.59549,19.48251 17.8418,19.48242 7.10915,9e-5 13.3982,-7.17764 18.86718,-21.5332 1.64039,-4.10145 4.10132,-8.47645 7.38282,-13.125 9.57005,-13.39831 21.05442,-20.09752 34.45312,-20.09765 13.39815,1.3e-4 24.88251,6.69934 34.45313,20.09765 3.28093,4.64855 6.0153,9.70714 8.20312,15.17578 l -24.81445,11.68946 c -4.23858,-12.98818 -10.18584,-19.48232 -17.8418,-19.48243"
+         style="font-size:420px"
+         id="path3476" />
+    </g>
+  </g>
+</svg>
