@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <title>Open Emoticon</title>
+
+	<link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/semantic.min.css">
+	<script
+		src="http://code.jquery.com/jquery-1.12.3.min.js"
+		integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ="
+		crossorigin="anonymous"></script>
+	<script src="libs/Semantic-UI-CSS/semantic.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/container.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/header.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/image.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/list.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/dropdown.css">
+  <link rel="stylesheet" type="text/css" href="libs/Semantic-UI-CSS/components/icon.css">
+
+	<link rel="stylesheet" type="text/css" href="open-emoticon/icon-utils.css">
+	<link rel="stylesheet" type="text/css" href="open-emoticon/open-emoticon.css">
+
+  <style type="text/css">
+  body {
+    background-color: #FFFFFF;
+  }
+  .ui.menu .item img.logo {
+    margin-right: 1.5em;
+  }
+  .main.container {
+    margin-top: 7em;
+  }
+  .wireframe {
+    margin-top: 2em;
+  }
+  .ui.footer.segment {
+    margin: 5em 0em 0em;
+    padding: 5em 0em;
+  }
+
+	.ui.labeled.icon.button > .icon, .ui.labeled.icon.buttons > .button > .icon {
+		width: 1.8em;
+	}
+
+  </style>
+
+</head>
+<body>
+
+  <div class="ui main text container">
+    <h1 class="ui header">
+			Open Emoticon
+			<div class="ui label">
+				<i class="version icon"></i> v0.0.1
+			</div>
+		</h1>
+
+    <p>A set of open source emoticon web fonts.</p>
+
+		<h4 class="ui horizontal divider header">
+			<i class="download icon"></i>
+			Download
+		</h4>
+		<p>
+			<a class="ui button" href="https://github.com/ippo615/open-emoticon-web/archive/master.zip">
+				<i class="archive icon"></i>
+				Zip Archive
+			</a>
+			<a class="ui button" href="https://github.com/ippo615/open-emoticon-web">
+				<i class="github icon"></i>
+				Git hub page
+			</a>
+		</p>
+
+		
+
+		<h4 class="ui horizontal divider header">
+			<i class="settings icon"></i>
+			Usage
+		</h4>
+
+		<p>Place the contents of the "build" folder with your website. For example:</p>
+		<pre class="ui segment">site/
+├── index.html
+└── open-emoticon
+	  ├── icon-utils.css
+	  ├── open-emoticon.css
+	  ├── open-emoticon.eot
+	  ├── open-emoticon.html
+	  ├── open-emoticon.ttf
+	  └── open-emoticon.woff</pre>
+
+		<p>In the head of your html:</p>
+			<pre class="ui segment">&lt;link rel="stylesheet" type="text/css" href="open-emoticon/icon-utils.css"&gt;
+&lt;link rel="stylesheet" type="text/css" href="open-emoticon/open-emoticon.css"&gt;</pre>
+
+		<p>In the body of your html:</p>
+		<pre class="ui segment"><code>&lt;i class=&quot;oe oe-winking-face&quot;&gt;&lt;/i&gt;</code></pre>
+
+
+		<div class="ui vertical segment" id="large-preview-1">
+			<div style="min-height: 263px;" class="right ui rail">
+				<div style="width: 272px ! important; height: 263px ! important; left: 1078px;" class="ui sticky">
+				  <h3 class="ui header">Preview</h3>
+				  <i id="large-preview-1-icon" class="oe icon icon-5x oe-winking-face"></i>
+					<pre><code>&lt;i class=&quot;oe oe-<span id="large-preview-1-name">winking-face</span>&quot;&gt;&lt;/i&gt;</code></pre>
+				</div>
+			</div>
+
+			<h4 class="ui horizontal divider header">
+				<i class="book icon"></i>
+				Icons
+			</h4>
+
+			<button class="circular ui icon button" data-name="angry-face"><i class="oe icon icon-5x oe-angry-face"></i></button>
+			<button class="circular ui icon button" data-name="anguished-face"><i class="oe icon icon-5x oe-anguished-face"></i></button>
+			<button class="circular ui icon button" data-name="astonished-face"><i class="oe icon icon-5x oe-astonished-face"></i></button>
+			<button class="circular ui icon button" data-name="cat-face-with-tears-of-joy"><i class="oe icon icon-5x oe-cat-face-with-tears-of-joy"></i></button>
+			<button class="circular ui icon button" data-name="cat-face-with-wry-smile"><i class="oe icon icon-5x oe-cat-face-with-wry-smile"></i></button>
+			<button class="circular ui icon button" data-name="confounded-face"><i class="oe icon icon-5x oe-confounded-face"></i></button>
+			<button class="circular ui icon button" data-name="confused-face"><i class="oe icon icon-5x oe-confused-face"></i></button>
+			<button class="circular ui icon button" data-name="crying-cat-face"><i class="oe icon icon-5x oe-crying-cat-face"></i></button>
+			<button class="circular ui icon button" data-name="crying-face"><i class="oe icon icon-5x oe-crying-face"></i></button>
+			<button class="circular ui icon button" data-name="disappointed-but-relieved-face"><i class="oe icon icon-5x oe-disappointed-but-relieved-face"></i></button>
+			<button class="circular ui icon button" data-name="disappointed-face"><i class="oe icon icon-5x oe-disappointed-face"></i></button>
+			<button class="circular ui icon button" data-name="dizzy-face"><i class="oe icon icon-5x oe-dizzy-face"></i></button>
+			<button class="circular ui icon button" data-name="expressionless-face"><i class="oe icon icon-5x oe-expressionless-face"></i></button>
+			<button class="circular ui icon button" data-name="face-savouring-delicious-food"><i class="oe icon icon-5x oe-face-savouring-delicious-food"></i></button>
+			<button class="circular ui icon button" data-name="face-screaming-in-fear"><i class="oe icon icon-5x oe-face-screaming-in-fear"></i></button>
+			<button class="circular ui icon button" data-name="face-throwing-a-kiss"><i class="oe icon icon-5x oe-face-throwing-a-kiss"></i></button>
+			<button class="circular ui icon button" data-name="face-with-cold-sweat"><i class="oe icon icon-5x oe-face-with-cold-sweat"></i></button>
+			<!--<button class="circular ui icon button" data-name="face-with-look-of-triumph"><i class="oe icon icon-5x oe-face-with-look-of-triumph"></i></button>-->
+			<button class="circular ui icon button" data-name="face-with-medical-mask"><i class="oe icon icon-5x oe-face-with-medical-mask"></i></button>
+			<button class="circular ui icon button" data-name="face-with-open-mouth-and-cold-sweat"><i class="oe icon icon-5x oe-face-with-open-mouth-and-cold-sweat"></i></button>
+			<button class="circular ui icon button" data-name="face-with-open-mouth"><i class="oe icon icon-5x oe-face-with-open-mouth"></i></button>
+			<button class="circular ui icon button" data-name="face-with-stuck-out-tongue-and-tightly-closed-eyes"><i class="oe icon icon-5x oe-face-with-stuck-out-tongue-and-tightly-closed-eyes"></i></button>
+			<button class="circular ui icon button" data-name="face-with-stuck-out-tongue-and-winking-eye"><i class="oe icon icon-5x oe-face-with-stuck-out-tongue-and-winking-eye"></i></button>
+			<button class="circular ui icon button" data-name="face-with-stuck-out-tongue"><i class="oe icon icon-5x oe-face-with-stuck-out-tongue"></i></button>
+			<button class="circular ui icon button" data-name="face-with-tears-of-joy"><i class="oe icon icon-5x oe-face-with-tears-of-joy"></i></button>
+			<button class="circular ui icon button" data-name="face-without-mouth"><i class="oe icon icon-5x oe-face-without-mouth"></i></button>
+			<button class="circular ui icon button" data-name="fearful-face"><i class="oe icon icon-5x oe-fearful-face"></i></button>
+			<button class="circular ui icon button" data-name="flushed-face"><i class="oe icon icon-5x oe-flushed-face"></i></button>
+			<button class="circular ui icon button" data-name="frowning-face-with-open-mouth"><i class="oe icon icon-5x oe-frowning-face-with-open-mouth"></i></button>
+			<button class="circular ui icon button" data-name="grimacing-face"><i class="oe icon icon-5x oe-grimacing-face"></i></button>
+			<button class="circular ui icon button" data-name="grinning-cat-face-with-smiling-eyes"><i class="oe icon icon-5x oe-grinning-cat-face-with-smiling-eyes"></i></button>
+			<button class="circular ui icon button" data-name="grinning-face-with-smiling-eyes"><i class="oe icon icon-5x oe-grinning-face-with-smiling-eyes"></i></button>
+			<button class="circular ui icon button" data-name="grinning-face"><i class="oe icon icon-5x oe-grinning-face"></i></button>
+			<button class="circular ui icon button" data-name="hushed-face"><i class="oe icon icon-5x oe-hushed-face"></i></button>
+			<button class="circular ui icon button" data-name="kissing-cat-face-with-closed-eyes"><i class="oe icon icon-5x oe-kissing-cat-face-with-closed-eyes"></i></button>
+			<button class="circular ui icon button" data-name="kissing-face-with-closed-eyes"><i class="oe icon icon-5x oe-kissing-face-with-closed-eyes"></i></button>
+			<button class="circular ui icon button" data-name="kissing-face-with-smiling-eyes"><i class="oe icon icon-5x oe-kissing-face-with-smiling-eyes"></i></button>
+			<button class="circular ui icon button" data-name="kissing-face"><i class="oe icon icon-5x oe-kissing-face"></i></button>
+			<button class="circular ui icon button" data-name="loudly-crying-face"><i class="oe icon icon-5x oe-loudly-crying-face"></i></button>
+			<button class="circular ui icon button" data-name="neutral-facesvg"><i class="oe icon icon-5x oe-neutral-facesvg"></i></button>
+			<button class="circular ui icon button" data-name="pensive-face"><i class="oe icon icon-5x oe-pensive-face"></i></button>
+			<button class="circular ui icon button" data-name="persevering-face"><i class="oe icon icon-5x oe-persevering-face"></i></button>
+			<button class="circular ui icon button" data-name="pouting-cat-face"><i class="oe icon icon-5x oe-pouting-cat-face"></i></button>
+			<button class="circular ui icon button" data-name="pouting-face"><i class="oe icon icon-5x oe-pouting-face"></i></button>
+			<button class="circular ui icon button" data-name="relieved-face"><i class="oe icon icon-5x oe-relieved-face"></i></button>
+			<button class="circular ui icon button" data-name="sleeping-face"><i class="oe icon icon-5x oe-sleeping-face"></i></button>
+			<button class="circular ui icon button" data-name="sleepy-face"><i class="oe icon icon-5x oe-sleepy-face"></i></button>
+			<button class="circular ui icon button" data-name="smiling-cat-face-with-heart-shaped-eyes"><i class="oe icon icon-5x oe-smiling-cat-face-with-heart-shaped-eyes"></i></button>
+			<button class="circular ui icon button" data-name="smiling-cat-face-with-open-mouth"><i class="oe icon icon-5x oe-smiling-cat-face-with-open-mouth"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-halo"><i class="oe icon icon-5x oe-smiling-face-with-halo"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-heart-shaped-eyes"><i class="oe icon icon-5x oe-smiling-face-with-heart-shaped-eyes"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-horns"><i class="oe icon icon-5x oe-smiling-face-with-horns"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-open-mouth-and-cold-sweat"><i class="oe icon icon-5x oe-smiling-face-with-open-mouth-and-cold-sweat"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-open-mouth-and-smiling-eyes"><i class="oe icon icon-5x oe-smiling-face-with-open-mouth-and-smiling-eyes"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-open-mouth-and-tightly-closed-eyes"><i class="oe icon icon-5x oe-smiling-face-with-open-mouth-and-tightly-closed-eyes"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-open-mouth"><i class="oe icon icon-5x oe-smiling-face-with-open-mouth"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-smiling-eyes"><i class="oe icon icon-5x oe-smiling-face-with-smiling-eyes"></i></button>
+			<button class="circular ui icon button" data-name="smiling-face-with-sunglasses"><i class="oe icon icon-5x oe-smiling-face-with-sunglasses"></i></button>
+			<button class="circular ui icon button" data-name="smirking-face"><i class="oe icon icon-5x oe-smirking-face"></i></button>
+			<button class="circular ui icon button" data-name="tired-face"><i class="oe icon icon-5x oe-tired-face"></i></button>
+			<button class="circular ui icon button" data-name="unamused-face"><i class="oe icon icon-5x oe-unamused-face"></i></button>
+			<button class="circular ui icon button" data-name="weary-cat-face"><i class="oe icon icon-5x oe-weary-cat-face"></i></button>
+			<button class="circular ui icon button" data-name="weary-face"><i class="oe icon icon-5x oe-weary-face"></i></button>
+			<button class="circular ui icon button" data-name="winking-face"><i class="oe icon icon-5x oe-winking-face"></i></button>
+			<button class="circular ui icon button" data-name="worried-face"><i class="oe icon icon-5x oe-worried-face"></i></button>
+
+			<h4 class="ui horizontal divider header">
+				<i class="tag icon"></i>
+				Icon Names
+			</h4>
+
+			<div class="ui vertical labeled icon buttons fluid" id="icon-list">
+			<button class="ui labeled icon button" data-name="angry-face"><i class="oe icon icon-2x oe-angry-face"></i> oe-angry-face</button>
+			<button class="ui labeled icon button" data-name="anguished-face"><i class="oe icon icon-2x oe-anguished-face"></i> oe-anguished-face</button>
+			<button class="ui labeled icon button" data-name="astonished-face"><i class="oe icon icon-2x oe-astonished-face"></i> oe-astonished-face</button>
+			<button class="ui labeled icon button" data-name="cat-face-with-tears-of-joy"><i class="oe icon icon-2x oe-cat-face-with-tears-of-joy"></i> oe-cat-face-with-tears-of-joy</button>
+			<button class="ui labeled icon button" data-name="cat-face-with-wry-smile"><i class="oe icon icon-2x oe-cat-face-with-wry-smile"></i> oe-cat-face-with-wry-smile</button>
+			<button class="ui labeled icon button" data-name="confounded-face"><i class="oe icon icon-2x oe-confounded-face"></i> oe-confounded-face</button>
+			<button class="ui labeled icon button" data-name="confused-face"><i class="oe icon icon-2x oe-confused-face"></i> oe-confused-face</button>
+			<button class="ui labeled icon button" data-name="crying-cat-face"><i class="oe icon icon-2x oe-crying-cat-face"></i> oe-crying-cat-face</button>
+			<button class="ui labeled icon button" data-name="crying-face"><i class="oe icon icon-2x oe-crying-face"></i> oe-crying-face</button>
+			<button class="ui labeled icon button" data-name="disappointed-but-relieved-face"><i class="oe icon icon-2x oe-disappointed-but-relieved-face"></i> oe-disappointed-but-relieved-face</button>
+			<button class="ui labeled icon button" data-name="disappointed-face"><i class="oe icon icon-2x oe-disappointed-face"></i> oe-disappointed-face</button>
+			<button class="ui labeled icon button" data-name="dizzy-face"><i class="oe icon icon-2x oe-dizzy-face"></i> oe-dizzy-face</button>
+			<button class="ui labeled icon button" data-name="expressionless-face"><i class="oe icon icon-2x oe-expressionless-face"></i> oe-expressionless-face</button>
+			<button class="ui labeled icon button" data-name="face-savouring-delicious-food"><i class="oe icon icon-2x oe-face-savouring-delicious-food"></i> oe-face-savouring-delicious-food</button>
+			<button class="ui labeled icon button" data-name="face-screaming-in-fear"><i class="oe icon icon-2x oe-face-screaming-in-fear"></i> oe-face-screaming-in-fear</button>
+			<button class="ui labeled icon button" data-name="face-throwing-a-kiss"><i class="oe icon icon-2x oe-face-throwing-a-kiss"></i> oe-face-throwing-a-kiss</button>
+			<button class="ui labeled icon button" data-name="face-with-cold-sweat"><i class="oe icon icon-2x oe-face-with-cold-sweat"></i> oe-face-with-cold-sweat</button>
+			<!--<button class="ui labeled icon button" data-name="face-with-look-of-triumph"><i class="oe icon icon-2x oe-face-with-look-of-triumph"></i> oe-face-with-look-of-triumph</button>-->
+			<button class="ui labeled icon button" data-name="face-with-medical-mask"><i class="oe icon icon-2x oe-face-with-medical-mask"></i> oe-face-with-medical-mask</button>
+			<button class="ui labeled icon button" data-name="face-with-open-mouth-and-cold-sweat"><i class="oe icon icon-2x oe-face-with-open-mouth-and-cold-sweat"></i> oe-face-with-open-mouth-and-cold-sweat</button>
+			<button class="ui labeled icon button" data-name="face-with-open-mouth"><i class="oe icon icon-2x oe-face-with-open-mouth"></i> oe-face-with-open-mouth</button>
+			<button class="ui labeled icon button" data-name="face-with-stuck-out-tongue-and-tightly-closed-eyes"><i class="oe icon icon-2x oe-face-with-stuck-out-tongue-and-tightly-closed-eyes"></i> oe-face-with-stuck-out-tongue-and-tightly-closed-eyes</button>
+			<button class="ui labeled icon button" data-name="face-with-stuck-out-tongue-and-winking-eye"><i class="oe icon icon-2x oe-face-with-stuck-out-tongue-and-winking-eye"></i> oe-face-with-stuck-out-tongue-and-winking-eye</button>
+			<button class="ui labeled icon button" data-name="face-with-stuck-out-tongue"><i class="oe icon icon-2x oe-face-with-stuck-out-tongue"></i> oe-face-with-stuck-out-tongue</button>
+			<button class="ui labeled icon button" data-name="face-with-tears-of-joy"><i class="oe icon icon-2x oe-face-with-tears-of-joy"></i> oe-face-with-tears-of-joy</button>
+			<button class="ui labeled icon button" data-name="face-without-mouth"><i class="oe icon icon-2x oe-face-without-mouth"></i> oe-face-without-mouth</button>
+			<button class="ui labeled icon button" data-name="fearful-face"><i class="oe icon icon-2x oe-fearful-face"></i> oe-fearful-face</button>
+			<button class="ui labeled icon button" data-name="flushed-face"><i class="oe icon icon-2x oe-flushed-face"></i> oe-flushed-face</button>
+			<button class="ui labeled icon button" data-name="frowning-face-with-open-mouth"><i class="oe icon icon-2x oe-frowning-face-with-open-mouth"></i> oe-frowning-face-with-open-mouth</button>
+			<button class="ui labeled icon button" data-name="grimacing-face"><i class="oe icon icon-2x oe-grimacing-face"></i> oe-grimacing-face</button>
+			<button class="ui labeled icon button" data-name="grinning-cat-face-with-smiling-eyes"><i class="oe icon icon-2x oe-grinning-cat-face-with-smiling-eyes"></i> oe-grinning-cat-face-with-smiling-eyes</button>
+			<button class="ui labeled icon button" data-name="grinning-face-with-smiling-eyes"><i class="oe icon icon-2x oe-grinning-face-with-smiling-eyes"></i> oe-grinning-face-with-smiling-eyes</button>
+			<button class="ui labeled icon button" data-name="grinning-face"><i class="oe icon icon-2x oe-grinning-face"></i> oe-grinning-face</button>
+			<button class="ui labeled icon button" data-name="hushed-face"><i class="oe icon icon-2x oe-hushed-face"></i> oe-hushed-face</button>
+			<button class="ui labeled icon button" data-name="kissing-cat-face-with-closed-eyes"><i class="oe icon icon-2x oe-kissing-cat-face-with-closed-eyes"></i> oe-kissing-cat-face-with-closed-eyes</button>
+			<button class="ui labeled icon button" data-name="kissing-face-with-closed-eyes"><i class="oe icon icon-2x oe-kissing-face-with-closed-eyes"></i> oe-kissing-face-with-closed-eyes</button>
+			<button class="ui labeled icon button" data-name="kissing-face-with-smiling-eyes"><i class="oe icon icon-2x oe-kissing-face-with-smiling-eyes"></i> oe-kissing-face-with-smiling-eyes</button>
+			<button class="ui labeled icon button" data-name="kissing-face"><i class="oe icon icon-2x oe-kissing-face"></i> oe-kissing-face</button>
+			<button class="ui labeled icon button" data-name="loudly-crying-face"><i class="oe icon icon-2x oe-loudly-crying-face"></i> oe-loudly-crying-face</button>
+			<button class="ui labeled icon button" data-name="neutral-facesvg"><i class="oe icon icon-2x oe-neutral-facesvg"></i> oe-neutral-facesvg</button>
+			<button class="ui labeled icon button" data-name="pensive-face"><i class="oe icon icon-2x oe-pensive-face"></i> oe-pensive-face</button>
+			<button class="ui labeled icon button" data-name="persevering-face"><i class="oe icon icon-2x oe-persevering-face"></i> oe-persevering-face</button>
+			<button class="ui labeled icon button" data-name="pouting-cat-face"><i class="oe icon icon-2x oe-pouting-cat-face"></i> oe-pouting-cat-face</button>
+			<button class="ui labeled icon button" data-name="pouting-face"><i class="oe icon icon-2x oe-pouting-face"></i> oe-pouting-face</button>
+			<button class="ui labeled icon button" data-name="relieved-face"><i class="oe icon icon-2x oe-relieved-face"></i> oe-relieved-face</button>
+			<button class="ui labeled icon button" data-name="sleeping-face"><i class="oe icon icon-2x oe-sleeping-face"></i> oe-sleeping-face</button>
+			<button class="ui labeled icon button" data-name="sleepy-face"><i class="oe icon icon-2x oe-sleepy-face"></i> oe-sleepy-face</button>
+			<button class="ui labeled icon button" data-name="smiling-cat-face-with-heart-shaped-eyes"><i class="oe icon icon-2x oe-smiling-cat-face-with-heart-shaped-eyes"></i> oe-smiling-cat-face-with-heart-shaped-eyes</button>
+			<button class="ui labeled icon button" data-name="smiling-cat-face-with-open-mouth"><i class="oe icon icon-2x oe-smiling-cat-face-with-open-mouth"></i> oe-smiling-cat-face-with-open-mouth</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-halo"><i class="oe icon icon-2x oe-smiling-face-with-halo"></i> oe-smiling-face-with-halo</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-heart-shaped-eyes"><i class="oe icon icon-2x oe-smiling-face-with-heart-shaped-eyes"></i> oe-smiling-face-with-heart-shaped-eyes</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-horns"><i class="oe icon icon-2x oe-smiling-face-with-horns"></i> oe-smiling-face-with-horns</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-open-mouth-and-cold-sweat"><i class="oe icon icon-2x oe-smiling-face-with-open-mouth-and-cold-sweat"></i> oe-smiling-face-with-open-mouth-and-cold-sweat</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-open-mouth-and-smiling-eyes"><i class="oe icon icon-2x oe-smiling-face-with-open-mouth-and-smiling-eyes"></i> oe-smiling-face-with-open-mouth-and-smiling-eyes</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-open-mouth-and-tightly-closed-eyes"><i class="oe icon icon-2x oe-smiling-face-with-open-mouth-and-tightly-closed-eyes"></i> oe-smiling-face-with-open-mouth-and-tightly-closed-eyes</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-open-mouth"><i class="oe icon icon-2x oe-smiling-face-with-open-mouth"></i> oe-smiling-face-with-open-mouth</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-smiling-eyes"><i class="oe icon icon-2x oe-smiling-face-with-smiling-eyes"></i> oe-smiling-face-with-smiling-eyes</button>
+			<button class="ui labeled icon button" data-name="smiling-face-with-sunglasses"><i class="oe icon icon-2x oe-smiling-face-with-sunglasses"></i> oe-smiling-face-with-sunglasses</button>
+			<button class="ui labeled icon button" data-name="smirking-face"><i class="oe icon icon-2x oe-smirking-face"></i> oe-smirking-face</button>
+			<button class="ui labeled icon button" data-name="tired-face"><i class="oe icon icon-2x oe-tired-face"></i> oe-tired-face</button>
+			<button class="ui labeled icon button" data-name="unamused-face"><i class="oe icon icon-2x oe-unamused-face"></i> oe-unamused-face</button>
+			<button class="ui labeled icon button" data-name="weary-cat-face"><i class="oe icon icon-2x oe-weary-cat-face"></i> oe-weary-cat-face</button>
+			<button class="ui labeled icon button" data-name="weary-face"><i class="oe icon icon-2x oe-weary-face"></i> oe-weary-face</button>
+			<button class="ui labeled icon button" data-name="winking-face"><i class="oe icon icon-2x oe-winking-face"></i> oe-winking-face</button>
+			<button class="ui labeled icon button" data-name="worried-face"><i class="oe icon icon-2x oe-worried-face"></i> oe-worried-face</button>
+			</div>
+
+		</div>
+
+			<h4 class="ui horizontal divider header">
+				<i class="legal icon"></i>
+				License (MIT)
+			</h4>
+
+			<p>Copyright (c) 2016 Andrew Ippoliti</p>
+
+			<p>Permission is hereby granted, free of charge, to any person obtaining
+			a copy of this software and associated documentation files (the
+			"Software"), to deal in the Software without restriction, including
+			without limitation the rights to use, copy, modify, merge, publish,
+			distribute, sublicense, and/or sell copies of the Software, and to
+			permit persons to whom the Software is furnished to do so, subject to
+			the following conditions:</p>
+
+			<p>The above copyright notice and this permission notice shall be included
+			in all copies or substantial portions of the Software.</p>
+
+			<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+			EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+			MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+			IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+			CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+			TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+			SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+
+			<br/><br/>
+
+  </div>
+
+</body>
+
+    <script>
+		(function() {
+
+			$('.ui.sticky')
+				.sticky({
+					context: '#large-preview-1'
+				})
+			;
+
+			$('#large-preview-1').on('click','button',function(e){
+				var name = this.getAttribute('data-name');
+				document.getElementById('large-preview-1-name').innerHTML = name;
+				document.getElementById('large-preview-1-icon').className = 'oe icon icon-5x oe-'+name;
+			});
+		})();
+    </script>
+
+</html>

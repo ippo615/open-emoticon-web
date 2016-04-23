@@ -1,0 +1,196 @@
+/*!
+ * MIT License
+ * Based on Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
+ */
+
+i.icon {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ---------------------------------------------------------------- *
+ *                                                          Sizes   *
+ * ---------------------------------------------------------------- */
+/* makes the font 33% larger relative to the icon container */
+i.icon-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+i.icon-2x {
+  font-size: 2em;
+}
+i.icon-3x {
+  font-size: 3em;
+}
+i.icon-4x {
+  font-size: 4em;
+}
+i.icon-5x {
+  font-size: 5em;
+}
+i.icon-fw {
+  width: 1.28571429em;
+  text-align: center;
+}
+
+/* ---------------------------------------------------------------- *
+ *                                                    List Styles   *
+ * ---------------------------------------------------------------- */
+i.icon-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+i.icon-ul > li {
+  position: relative;
+}
+i.icon-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+i.icon-lii.icon-lg {
+  left: -1.85714286em;
+}
+
+/* ---------------------------------------------------------------- *
+ *                                                     Animations   *
+ * ---------------------------------------------------------------- */
+
+i.icon-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+i.icon-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+/* ---------------------------------------------------------------- *
+ *                                                      Rotations   *
+ * ---------------------------------------------------------------- */
+
+i.icon-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+i.icon-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+i.icon-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+i.icon-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+i.icon-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root i.icon-rotate-90,
+:root i.icon-rotate-180,
+:root i.icon-rotate-270,
+:root i.icon-flip-horizontal,
+:root i.icon-flip-vertical {
+  filter: none;
+}
+
+/* ---------------------------------------------------------------- *
+ *                                                       Stacking   *
+ * ---------------------------------------------------------------- */
+
+i.icon-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+i.icon-stack-1x,
+i.icon-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+i.icon-stack-1x {
+  line-height: inherit;
+}
+i.icon-stack-2x {
+  font-size: 2em;
+}
+
+/* ---------------------------------------------------------------- *
+ *                                                       Position   *
+ * ---------------------------------------------------------------- */
+
+i.icon-pull-left {
+  float: left;
+}
+i.icon-pull-right {
+  float: right;
+}
+i.iconi.icon-pull-left {
+  margin-right: .3em;
+}
+i.iconi.icon-pull-right {
+  margin-left: .3em;
+}
+i.icon.pull-left {
+  margin-right: .3em;
+}
+i.icon.pull-right {
+  margin-left: .3em;
+}
+
+/* ---------------------------------------------------------------- *
+ *                                                           Misc   *
+ * ---------------------------------------------------------------- */
+
+i.icon-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+i.icon-inverse {
+  color: #ffffff;
+}

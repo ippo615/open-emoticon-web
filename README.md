@@ -84,3 +84,7 @@ Current icons are built from the Public Domain portion of the
 [DejaVu Sans font](http://dejavu-fonts.org/wiki/Main_Page). You can
 get more info about the DejaVu Fonts Licence at
 http://dejavu-fonts.org/wiki/Main_Page
+
+## TODO:
+
+ - grid alignment of svgs

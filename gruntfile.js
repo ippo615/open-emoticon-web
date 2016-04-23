@@ -6,15 +6,30 @@ module.exports = function(grunt) {
 			//target1: {
 				icons: {
 					src: 'icons/*.svg',
-					dest: 'build/fonts',
-					destCss: 'build/fonts',
+					dest: 'build/',
 					options: {
+						/*
+						customOutputs are not generated...
+						customOutputs: [{
+							template: 'templates/icon-utilities.css',
+							dest: 'build/',
+							context: {
+								utilityClassPrefix: 'oe'
+							}
+						}],{
+							template: 'templates/icon-list.html',
+							dest: 'build/icon-list.html'
+						},{
+							template: 'templates/index.html',
+							dest: 'build/index.html'
+						}],
+						*/
 						engine: 'node', // or 'fontforge' (looks horrible)
-						font: 'name-of-font',
+						font: 'open-emoticon',
 						templateOptions: {
-							baseClass: 'blah-icon',
-							classPrefix: 'blah-',
-							mixinPrefix: 'blah-'
+							baseClass: 'oe',
+							classPrefix: 'oe-',
+							mixinPrefix: 'oe-'
 						}
 					}
 				}
