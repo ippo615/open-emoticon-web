@@ -23,8 +23,6 @@ directory='icons'
 
 IFS='
 '
-mv_lower $(find "$directory" | sed '1d')
-mv_space $(find "$directory" | sed '1d')
 for file in $(find "$directory" | sed '1d'); do
 	mv_space $(mv_lower "$file")
 done;
